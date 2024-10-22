@@ -8,42 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://kit.fontawesome.com/0cf6585b12.js" crossorigin="anonymous"></script>
 </head>
-    <header class="header">
-        <h1>Carrinho de compras</h1>
-        <i id="verCarrinho" onclick="mostrarCarrinho()" class="fas fa-shopping-cart"></i>
-    </header>
+   
 <body>
-    <div class="container">
-        <!-- Lista de Produtos em Cards -->
-        <div id="produtos-container" class="produtos-container">
-            <div class="card">
-                <img src="img/pizza1.webp" alt="Produto 1">
-                <h3>Produto 1</h3>
-                <p>Preço: R$ 10,00</p>
-                <button class="adicionarCarrinho" onclick="adicionar('Produto 1', 10)">
-                    Adicionar ao Carrinho
-                </button>
-            </div>
-            <div class="card">
-                <img src="img/pizza2.jpg" alt="Produto 2">
-                <h3>Produto 2</h3>
-                <p>Preço: R$ 20,00</p>
-                <button class="adicionarCarrinho" onclick="adicionar('Produto 2', 20)">
-                    Adicionar ao Carrinho
-                </button>
-            </div>
-            <div class="card">
-                <img src="img/pizza3.jpg" alt="Produto 3">
-                <h3>Produto 3</h3>
-                <p>Preço: R$ 30,00</p>
-                <button class="adicionarCarrinho" onclick="adicionar('Produto 3', 30)">
-                    Adicionar ao Carrinho
-                </button>
-            </div>
-        </div>
-    </div>
-    
+    <div id="navbar"></div>
+    <div id="cards"></div>
  <script src="js/script.js"></script>
-    
+ <script type="module" src="js/imports.js"></script>
 </body>
 </html>
